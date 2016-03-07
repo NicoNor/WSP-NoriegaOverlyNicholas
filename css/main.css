@@ -79,8 +79,8 @@ article p {
   text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
 }
 
-html {
-  background-color: lightblue;
+body {
+    background-image: url('../images/background.png');
 }
 
 #componentLibrary{
