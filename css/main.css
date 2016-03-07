@@ -47,6 +47,8 @@ hr {
 
 /* COMPONENTS ============================== */
 h1{
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
   text-align: center;
   margin: 0;
   font-size: 4rem;
@@ -55,6 +57,8 @@ h1{
 }
 
 h2 {
+  color: #d7ceb2;
+  text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
   margin: 0;
   font-size: 2.4rem;
   font-weight: 900;
@@ -62,6 +66,8 @@ h2 {
 }
 
 h3 {
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5), 0px -2px 35px rgba(255,255,255,0.3), 1px 1px 0px #5c5f72;
+  color: #d7ceb2;
   margin: 1rem 0 0 0;
   font-weight: 600;
   text-transform: uppercase;
@@ -70,6 +76,7 @@ h3 {
 article p {
   font-size: 1.5rem;
   margin-top: .3rem;
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
 }
 
 html {
@@ -90,6 +97,7 @@ li {
   list-style-type: none;
   margin-top: .3rem;
   font-size: 1.3rem;
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
 }
 
 li span {
