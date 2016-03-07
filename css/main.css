@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-  color: #d7ceb2;
+  color: #f4eac8;
   margin: 1rem 0 0 0;
   font-weight: 600;
   text-transform: uppercase;
@@ -190,6 +190,10 @@ article img {
 #featured h2 {
   color: #494444;
   text-shadow: 2px 2px 0px #6d6565, 3px 3px 0px #948888;
+}
+
+#featured h3 {
+  color: #4f4b3e;
 }
 
 .btn {
