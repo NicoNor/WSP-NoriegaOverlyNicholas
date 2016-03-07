@@ -3,6 +3,7 @@
 ============================================================*/
 body{
 font-size: 1.6em;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* HEADER + LOGO ============================== */
@@ -14,13 +15,8 @@ header {
   margin: auto;
   font-family: 'Dancing Script', cursive;
   font-size: 2.4em;
-  width:500px;
+  width:50%;
   text-align: center;
-}
-
-header img {
-  display: block;
-  margin: 0 auto;
 }
 
 /* ABOUT ============================== */
@@ -76,9 +72,18 @@ article p {
   margin-top: .3rem;
 }
 
+html {
+  background-color: lightblue;
+}
+
 #componentLibrary{
   padding: 2rem;
-  border: 6px solid black;
+  border: 6px solid #000;
+  background-color: lightgray;
+}
+
+li:last-child{
+  margin-bottom: 1rem;
 }
 
 li {
@@ -101,14 +106,15 @@ span {
 
 code {
   font: monospace;
-  color: blue;
+  color: orange;
 }
 
 article {
   margin: 1.5rem 0;
   border: 4px solid #000;
-  background-color: lightgray;
+  background-color: gray;
   padding: 1.5rem;
+  color: #fff;
 }
 
 article img {
@@ -116,4 +122,26 @@ article img {
   width: 100%;
   margin-top:.5rem;
   border: 2px dashed black;
+}
+
+.btn {
+  text-align: center;
+  width: 25%;
+  display: block;
+  margin: auto;
+  border: 0;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  background: #FFA500;
+  padding: 10px 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  font: #000;
+}
+
+.btn:hover {
+  background: #ff9500;
+  text-decoration: none;
+  font: #000;
 }
