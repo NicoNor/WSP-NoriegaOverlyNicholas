@@ -47,10 +47,10 @@ hr {
 }
 
 #hr1 {
-  margin-top: 50px;
+  margin-top: 2rem;
 }
 #hr2{
-  margin-bottom: 50px;
+  margin-bottom: 2.5rem;
 }
 
 
@@ -119,8 +119,8 @@ li {
 
 li span {
   display: inline-block;
-  margin-right: 1em;
   padding: 0 0.5rem;
+  margin-right: .4rem;
   border-right: solid 1px #fff;
   border-left: none;
 }
@@ -162,11 +162,10 @@ article img {
   padding: 10px 15px;
   font-size: 1rem;
   text-decoration: none;
-  font: #000;
+  color: #000;
 }
 
 .btn:hover {
   background: #ff9500;
   text-decoration: none;
-  font: #000;
 }
