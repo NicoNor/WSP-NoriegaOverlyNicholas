@@ -59,14 +59,14 @@ h1{
 }
 
 h2 {
-  margin: 0 0 1rem 0;
+  margin: 0;
   font-size: 2.4rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 h3 {
-  margin: 2rem 0 0 0;
+  margin: 1rem 0 0 0;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -77,8 +77,8 @@ article p {
 }
 
 #componentLibrary{
-  padding: 0 2rem;
-  border: 2px solid black;
+  padding: 2rem;
+  border: 6px solid black;
 }
 
 li {
@@ -105,13 +105,15 @@ code {
 }
 
 article {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
   border: 4px solid #000;
+  background-color: lightgray;
+  padding: 1.5rem;
 }
 
 article img {
   display: block;
   width: 100%;
-  margin:1.5rem 0;
-  border: 2px solid #000;
+  margin-top:.5rem;
+  border: 2px dashed black;
 }
