@@ -2,8 +2,8 @@
 ============================================================
 ============================================================*/
 body{
-font-size: 1.6em;
-font-family: 'Source Sans Pro', sans-serif;
+font-size: 1em;
+font-family: sans-serif;
 }
 
 /* HEADER + LOGO ============================== */
@@ -53,6 +53,7 @@ hr {
 
 /* COMPONENTS ============================== */
 h1{
+  font-family: 'Source Sans Pro', sans-serif;
   color: rgba(0,0,0,0.6);
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
   text-align: center;
@@ -63,6 +64,7 @@ h1{
 }
 
 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #d7ceb2;
   text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
   margin: 0;
@@ -72,14 +74,16 @@ h2 {
 }
 
 h3 {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #c9b77e;
   margin: 1rem 0 0 0;
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 .notFeature p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: .3rem;
 }
 
@@ -108,7 +112,7 @@ li:last-child{
 li {
   list-style-type: none;
   margin-top: .3rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 li span {
@@ -144,16 +148,16 @@ article img {
 }
 
 #featured p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: .3rem;
+  color: #000;
 }
 
 #featured li  {
   color: #000;
   list-style-type: none;
   margin-top: .3rem;
-  font-size: 1.3rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
 }
 
 #featured li span {
@@ -181,10 +185,6 @@ article img {
 #featured {
   background-image: url('../images/background.png');
   border: 4px solid orange;
-}
-
-#featured p {
-  color: #666;
 }
 
 #featured h2 {
