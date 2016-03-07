@@ -148,7 +148,6 @@ article img {
 #featured p {
   font-size: 1.5rem;
   margin-top: .3rem;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
 }
 
 #featured li  {
@@ -157,7 +156,6 @@ article img {
   margin-top: .3rem;
   font-size: 1.3rem;
   font-family: 'Source Sans Pro', sans-serif;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
 }
 
 #featured li span {
