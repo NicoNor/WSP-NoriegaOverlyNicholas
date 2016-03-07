@@ -10,6 +10,9 @@ font-family: 'Source Sans Pro', sans-serif;
 #logo {
   width: 250px;
   height: 250px;
+  margin-top: 1rem;
+  padding: 10px 10px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
 }
 header {
   margin: auto;
@@ -17,6 +20,11 @@ header {
   font-size: 2.4em;
   width:50%;
   text-align: center;
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
+}
+
+#logoText {
+  margin-top: -1rem;
 }
 
 /* ABOUT ============================== */
@@ -86,7 +94,9 @@ body {
 
 #componentLibrary{
   padding: 2rem;
-  border: 6px solid #000;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   background:
   radial-gradient(black 15%, transparent 16%) 0 0,
   radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -126,7 +136,7 @@ code {
 
 article {
   margin: 1.5rem 0;
-  border: 4px solid #000;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
   background-color: gray;
   padding: 1.5rem;
   color: #fff;
