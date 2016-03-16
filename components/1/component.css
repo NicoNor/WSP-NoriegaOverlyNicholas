@@ -1,4 +1,36 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
+body {
+  background-color: #f5f5f5;
+}
 
+nav ul, header {
+  margin: 0 auto;
+}
+
+header::after, nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+header {
+  float: left;
+}
+
+nav {
+  background-color: #414048;
+}
+
+nav li {
+  list-style-type: none;
+  float: right;
+}
+
+nav li a{
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
