@@ -5,17 +5,18 @@ section {
   font-family: "Montserrat", sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 .938em;
-  display: block;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 li {
-  width: calc(100% / 4);
+  border: solid 2px red;
+  width: calc(100%/4);
   float: left;
-  padding: 0 1.1em;
-}
-ul {
-  display: block;
   list-style-type: none;
 }
 
