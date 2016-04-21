@@ -7,7 +7,7 @@ font-family: "Times New Roman";
 }
 
 /* HEADER + LOGO ============================== */
-#logo {
+header img {
   width: 250px;
   height: 250px;
   margin-top: 1rem;
@@ -20,27 +20,26 @@ header {
   text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
 }
 
-#logoText {
+header p {
   margin-top: -1rem;
   font-size: 4rem;
 }
 
 /* ABOUT ============================== */
-section {
-  max-width: 960px;
-  margin: auto;
-}
 
 #about {
   text-align: center;
   font-size: 1rem;
   padding: 0 2rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 hr {
   width: 66%;
-  border: 0; height:
-  1px; background: #333;
+  border: 0;
+  height:1px;
+  background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
@@ -83,7 +82,7 @@ h3 {
   font-size: 1.4rem;
 }
 
-.notFeature p {
+p {
   font-size: 1rem;
   margin-top: .3rem;
 }
@@ -92,7 +91,7 @@ body {
     background-image: url('../images/background.png');
 }
 
-#componentLibrary{
+section {
   padding: 1rem 2rem;
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
@@ -104,6 +103,8 @@ body {
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:#282828;
   background-size:16px 16px;
+  max-width: 960px;
+  margin: auto;
 }
 
 li:last-child{
@@ -198,7 +199,7 @@ article img {
   color: #4f4b3e;
 }
 
-.btn {
+a {
    text-align: center;
    width: 25%;
    border: 0;
