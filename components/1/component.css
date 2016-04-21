@@ -1,36 +1,79 @@
 /* Component Stylesheet
 ============================================================
 ============================================================*/
-body {
-  background-color: #f5f5f5;
+h1 a {
+  letter-spacing: -5px;
+  font-size: 4em;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
-
-nav ul, header {
-  margin: 0 auto;
-}
-
-header::after, nav ul::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 header {
+  background: #414048;
+}
+
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul {
+  background: #414048;
+  padding: 0 126px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+nav ul:after {
+  contet: ""; clear: both; display: block;
+}
+
+
+nav ul li {
   float: left;
 }
-
-nav {
-  background-color: #414048;
+nav ul li:hover {
+/*Animation goes here []*/
 }
-
-nav li {
-  list-style-type: none;
-  float: right;
-}
-
-nav li a{
+nav ul li a {
   display: block;
-  padding: 20px;
+  padding: 25px 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+nav ul ul {
+  background: #02c6bc;
+  border-radius: 0px;
+  padding: 30px 30px 35px 20px;
+  position: absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+nav ul ul li a {
+  padding: 15px 40px;
+  color: #fff;
+}
+nav ul ul li a:hover {
+  /*Animation []*/
+}
+nav ul ul ul {
+  background: #414048;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+ul li a:hover::before {
+  content: "[";
+  color: #fff;
+}
+ul li a:hover::after {
+  content: "]";
   color: #fff;
 }
