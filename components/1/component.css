@@ -19,6 +19,12 @@ h1 {
 
 header {
   background: #414048;
+  float: left;
+}
+header:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 nav ul ul {
@@ -39,7 +45,7 @@ nav ul {
 nav ul:after {
   contet: "";
   clear: both;
-  display: block;
+  display: table;
 }
 
 
