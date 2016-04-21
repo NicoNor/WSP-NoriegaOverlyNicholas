@@ -14,10 +14,12 @@ section::after {
 }
 
 li {
-  border: solid 2px red;
+  position: relative;
+  border: solid 1px red;
   width: calc(100%/4);
   float: left;
   list-style-type: none;
+  padding: 10rem 15px 0px 15px;
 }
 
 h2 {
@@ -37,7 +39,7 @@ h3:last-of-type::after {
   height: 8px;
   background: #ffd933;
 }
-h3:first-of-type {
+h3 {
   margin-top: .750em;
   margin-bottom: -0.25em;
 }
@@ -71,6 +73,9 @@ li::before {
   height: 8.563em;
   border-radius: 50%;
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 p {
