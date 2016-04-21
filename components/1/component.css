@@ -1,12 +1,22 @@
 /* Component Stylesheet
 ============================================================
 ============================================================*/
-h1 a {
+strong {
   letter-spacing: -5px;
-  font-size: 4em;
-  font-family: sans-serif;
+  font-size: 4.375em;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 32px;
+  margin-right: 35px;
 }
+h1 {
+  font-size: 1.125em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 header {
   background: #414048;
 }
@@ -27,7 +37,9 @@ nav ul {
   display: inline-table;
 }
 nav ul:after {
-  contet: ""; clear: both; display: block;
+  contet: "";
+  clear: both;
+  display: block;
 }
 
 
