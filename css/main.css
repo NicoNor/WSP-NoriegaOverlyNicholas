@@ -199,22 +199,25 @@ article img {
 }
 
 .btn {
-  text-align: center;
-  width: 25%;
-  display: block;
-  margin: auto;
-  border: 0;
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  background: #FFA500;
-  padding: 10px 15px;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #000;
-}
+   text-align: center;
+   width: 25%;
+   border: 0;
+   -webkit-border-radius: 4;
+   -moz-border-radius: 4;
+   border-radius: 4px;
+   background: #FFA500;
+   padding: 10px 15px;
+   font-size: 1rem;
+   text-decoration: none;
+   color: #000;
+  display: inline-block;
+ }
 
-.btn:hover {
-  background: #ff9500;
-  text-decoration: none;
+ .btn:hover {
+   background: #ff9500;
+   text-decoration: none;
+ }
+
+a:last-of-type {
+  float: right;
 }
