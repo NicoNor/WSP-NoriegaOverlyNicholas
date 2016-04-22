@@ -1,4 +1,98 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
+strong {
+  letter-spacing: -5px;
+  font-size: 4.375em;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 32px;
+  margin-right: 35px;
+}
 
+h1 {
+  font-size: 1.125em;
+  color: rgba(255, 255, 255, 0.3);
+  float: left;
+}
+nav {
+  float: left;
+}
+
+header {
+  background: #414048;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+nav ul {
+  padding: 0 126px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+ul li {
+   float: left;
+}
+
+nav ul li:hover {
+/*Animation goes here []*/
+}
+
+nav ul li a {
+  display: block;
+  padding: 25px 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+nav ul ul {
+  background: #02c6bc;
+  border-radius: 0px;
+  padding: 30px 30px 35px 20px;
+  position: absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+nav ul ul li a {
+  padding: 15px 40px;
+  color: #fff;
+}
+nav ul ul li a:hover {
+  /*Animation []*/
+}
+nav ul ul ul {
+  background: #414048;
+  position: absolute;
+  left: 100%;
+  top: 0;
+ }
+
+
+ul li a:hover::before {
+  content: "[";
+  color: #fff;
+}
+ul li a:hover::after {
+  content: "]";
+   color: #fff;
+ }

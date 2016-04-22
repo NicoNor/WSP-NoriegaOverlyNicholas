@@ -1,4 +1,83 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  background: #faf6f1;
+}
 
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#talented, #agency, #model {
+  display: none;
+}
+
+span {
+  display: block;
+}
+
+.textsize {
+  font-size: 2em;
+}
+
+.more {
+  font-size: 12px;
+  color: #9fa1a5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+strong {
+  font-size: 7.188em;
+  font-weight: 700;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+
+h2::after {
+    content: '';
+    bottom: 0;
+    left: 48.7%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    width: 104px;
+    height: 8px;
+    background: #000;
+}
+#fresh::before {
+  background: url("images/model1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15px;
+  background-clip:content-box;
+}
+
+li::before {
+    content: "";
+    width: 32em;
+    height: 32em;
+    border-radius: 50%;
+    border: solid 1px #e9e5e1;
+    display: block;
+    float: left;
+    margin-right: 150px;
+    position: relative;
+}
+
+li::after {
+  content: "";
+  clear: both;
+  display: table;
+}
