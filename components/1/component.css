@@ -12,16 +12,20 @@ strong {
   padding-right: 32px;
   margin-right: 35px;
 }
+
 h1 {
   font-size: 1.125em;
   color: rgba(255, 255, 255, 0.3);
+  float: left;
+}
+nav {
+  float: left;
 }
 
 header {
   background: #414048;
-  float: left;
 }
-header:after {
+header::after {
   content: "";
   clear: both;
   display: table;
@@ -36,21 +40,13 @@ nav ul li:hover > ul {
 
 
 nav ul {
-  background: #414048;
   padding: 0 126px;
   list-style: none;
   position: relative;
   display: inline-table;
 }
-nav ul:after {
-  contet: "";
-  clear: both;
-  display: table;
-}
 
-
-
-nav ul li {
+ul li {
    float: left;
 }
 
@@ -64,7 +60,6 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
-
 
 
 nav ul ul {
